@@ -1,1 +1,0 @@
-(()=>{"use strict";((o="world")=>{console.log(`Hey ${o}!`)})()})();
