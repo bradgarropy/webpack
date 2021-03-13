@@ -1,0 +1,19 @@
+{
+  "name": "zero-config-webpack-setup",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack serve",
+    "build": "webpack build",
+    "build:watch": "webpack build --watch"
+  },
+  "keywords": [],
+  "author": "Brad Garropy",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "webpack": "^5.24.4",
+    "webpack-cli": "^4.5.0",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
