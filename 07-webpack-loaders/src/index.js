@@ -1,3 +1,3 @@
-import { sayHey } from "./hey.ts";
+import { sayHey } from "./hey";
 
 sayHey();

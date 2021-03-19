@@ -1,3 +1,3 @@
-import { sayHey } from "./hey.js";
+import { sayHey } from "./hey";
 
 sayHey();

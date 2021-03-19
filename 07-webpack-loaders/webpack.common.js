@@ -9,6 +9,9 @@ const config = {
     clean: true,
   },
   plugins: [new HtmlWebpackPlugin()],
+  resolve: {
+    extensions: [".ts", ".js"],
+  },
   module: {
     rules: [
       {
