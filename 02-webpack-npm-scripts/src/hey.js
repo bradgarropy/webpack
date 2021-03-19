@@ -1,5 +1,5 @@
 const sayHey = (name = "world") => {
-    console.log(`Hey ${name}!`)
-}
+  console.log(`Hey ${name}!`);
+};
 
-export {sayHey}
+export { sayHey };

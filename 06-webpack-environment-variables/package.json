@@ -1,0 +1,23 @@
+{
+  "name": "zero-config-webpack-setup",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack serve --config webpack.dev.js",
+    "build": "webpack build --config webpack.prod.js",
+    "build:dev": "webpack build --config webpack.dev.js",
+    "build:prod": "webpack build --config webpack.prod.js",
+    "build:watch": "webpack build --watch --config webpack.dev.js"
+  },
+  "keywords": [],
+  "author": "Brad Garropy",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "html-webpack-plugin": "^5.3.1",
+    "webpack": "^5.24.4",
+    "webpack-cli": "^4.5.0",
+    "webpack-dev-server": "^3.11.2",
+    "webpack-merge": "^5.7.3"
+  }
+}
